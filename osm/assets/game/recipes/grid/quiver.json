@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "PPP,LSL,LLL",
+	ingredients: {
+		"P": { type: "item", code: "game:hide-pelt-medium", quantity: 2 },
+		"L": { type: "item", code: "game:leather", quantity: 2 },
+		"S": { type: "item", code: "game:linensack", quantity: 1  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "item", code: "game:quiver"  }
+}

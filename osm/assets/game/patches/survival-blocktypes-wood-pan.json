@@ -1,0 +1,112 @@
+[
+    {
+      "op": "remove",
+      "path": "/attributes/panningDrops/@(sand|gravel)-.*/22",
+      "file": "blocktypes/wood/pan.json"
+    },
+    {
+      "op": "remove",
+      "path": "/attributes/panningDrops/@(sand|gravel)-.*/22",
+      "file": "blocktypes/wood/pan.json"
+    },
+    {
+      "op": "remove",
+      "path": "/attributes/panningDrops/@(sand|gravel)-.*/22",
+      "file": "blocktypes/wood/pan.json"
+    },
+    {
+      "op": "remove",
+      "path": "/attributes/panningDrops/@(sand|gravel)-.*/22",
+      "file": "blocktypes/wood/pan.json"
+    },
+    {
+      "op": "replace",
+      "path": "/attributes/panningDrops/@(sand|gravel)-.*/22",
+      "value": {
+        "type": "item",
+        "code": "clothes-neck-bronze-gem-necklace",
+        "chance": {
+          "avg": 0.0001,
+          "var": 0
+        }
+      },
+      "file": "blocktypes/wood/pan.json"
+    },
+    {
+      "op": "add",
+      "path": "/attributes/panningDrops/@(sand|gravel)-.*/23",
+      "value": {
+        "type": "item",
+        "code": "clothes-arm-silver-chain",
+        "chance": {
+          "avg": 0.0001,
+          "var": 0
+        }
+      },
+      "file": "blocktypes/wood/pan.json"
+    },
+    {
+      "op": "remove",
+      "path": "/attributes/panningDrops/bonysoil/25",
+      "file": "blocktypes/wood/pan.json"
+    },
+    {
+      "op": "remove",
+      "path": "/attributes/panningDrops/bonysoil/25",
+      "file": "blocktypes/wood/pan.json"
+    },
+    {
+      "op": "remove",
+      "path": "/attributes/panningDrops/bonysoil/25",
+      "file": "blocktypes/wood/pan.json"
+    },
+    {
+      "op": "remove",
+      "path": "/attributes/panningDrops/bonysoil/25",
+      "file": "blocktypes/wood/pan.json"
+    },
+    {
+      "op": "remove",
+      "path": "/attributes/panningDrops/bonysoil/25",
+      "file": "blocktypes/wood/pan.json"
+    },
+    {
+      "op": "replace",
+      "path": "/attributes/panningDrops/bonysoil/25",
+      "value": {
+        "type": "item",
+        "code": "clothes-neck-bronze-gem-necklace",
+        "chance": {
+          "avg": 0.0004,
+          "var": 0
+        }
+      },
+      "file": "blocktypes/wood/pan.json"
+    },
+    {
+      "op": "add",
+      "path": "/attributes/panningDrops/bonysoil/26",
+      "value": {
+        "type": "item",
+        "code": "clothes-arm-bronze-armlet",
+        "chance": {
+          "avg": 0.0016,
+          "var": 0
+        }
+      },
+      "file": "blocktypes/wood/pan.json"
+    },
+    {
+      "op": "add",
+      "path": "/attributes/panningDrops/bonysoil/27",
+      "value": {
+        "type": "item",
+        "code": "clothes-arm-silver-chain",
+        "chance": {
+          "avg": 0.0004,
+          "var": 0
+        }
+      },
+      "file": "blocktypes/wood/pan.json"
+    }
+  ]

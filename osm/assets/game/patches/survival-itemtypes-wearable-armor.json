@@ -1,0 +1,68 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/statModifiersByType/armor-*-sewn-linen/rangedWeaponsAcc",
+    "value": 0.12,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/statModifiersByType/armor-*-sewn-linen/rangedWeaponsSpeed",
+    "value": -0.05,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/statModifiersByType/armor-*-sewn-linen/walkSpeed",
+    "value": 0.02,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-brigandine-*/rangedWeaponsAcc",
+    "value": 0.02,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-brigandine-*/rangedWeaponsSpeed",
+    "value": 0,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/statModifiersByType/armor-*-brigandine-*/walkSpeed",
+    "value": -0.04,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-chain-*/rangedWeaponsAcc",
+    "value": 0.05,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-chain-*/rangedWeaponsSpeed",
+    "value": -0.02,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/statModifiersByType/armor-*-chain-*/walkSpeed",
+    "value": -0.02,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-scale-*/rangedWeaponsAcc",
+    "value": 0,
+    "file": "itemtypes/wearable/armor.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/statModifiersByType/armor-*-scale-*/rangedWeaponsSpeed",
+    "value": 0.05,
+    "file": "itemtypes/wearable/armor.json"
+  }
+]

@@ -1,0 +1,54 @@
+{
+	code: "adminwand",
+	heldTpHitAnimation: "swordhit",
+	lightHsv: [2, 5, 8],
+	glowLevel: 160,
+	combustibleProps: {
+		burnTemperature: 700,
+		burnDuration: 8,
+	},
+	textures: {
+		"cabbage": {base: "item/cabbage"},
+		"badyl": {base: "item/badyl"},
+		"krysztal": {base: "item/krysztal"},
+		"szczelina": {base: "item/krysztal"},
+	},
+	tpHandTransform: {
+		translation: { x: 0, y: -0.1, z: -0.025 },
+		rotation: { x: 0, y: -180, z: 70 },
+		scale: 1
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: -2, z: -0.55 },
+		rotation: { x: -25, y: -180, z: 0 },
+		scale: 3
+	},
+	guiTransform: {
+		translation: { x: 0, y: 1, z: 0 },
+		rotation: { x: 0, y: 180, z: 140 },
+		origin: { x: 0, y: 1.2, z: 0 },
+		scale: 0.8
+	},
+	shape: { base: "item/adminwandv2" },
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	attackpowerbytype: {
+		"adminwand": 15,
+	},
+	glowLevel: 255,
+	miningspeedbytype: {
+		"adminwand": {
+			"wood": 50,
+			"stone": 20,
+			"ore": 20,
+			"metal": 20,
+			"ice": 20,
+			"plant": 20,
+			"ceramic": 20,
+			"leaves": 20
+		},
+	},
+	attackRange: 30,
+	tooltierbytype: {
+		"adminwand": 10,
+	},
+}
